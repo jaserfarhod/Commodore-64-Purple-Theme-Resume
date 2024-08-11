@@ -19,45 +19,55 @@
         </header>
 
         <div class="main-body">
+            <h1>DM me</h1>
+            <div class="box-content-form">
+                <form action="/submit-message" method="post">
 
-            <form action="/submit-message" method="post">
-                <fieldset class="box-content">
-                    <legend>Contact</legend>
+                    <fieldset>
+                        <!-- <legend>Contact</legend> -->
 
-                    <div>
-                        <label for="firstName">Name</label>
-                        <input type="text" id="firstName" name="first_name" />
-                    </div>
+                        <div class="input-field">
+                            <label for="firstName">First name</label>
+                            <input class="input-field-text" type="text" id="firstName" name="first_name" />
+                        </div>
 
-                    <div>
-                        <label for="lastName">Last name</label>
-                        <input type="text" id="lastName" name="last_name" />
-                    </div>
+                        <div class="input-field">
+                            <label for="lastName">Last name</label>
+                            <input class="input-field-text" type="text" id="lastName" name="last_name" />
+                        </div>
 
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" />
-                    </div>
+                        <div class="input-field">
+                            <label for="email">Email</label>
+                            <input class="input-field-text" type="email" id="email" name="email" />
+                        </div>
 
-                    <div>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message"></textarea>
-                    </div>
+                        <div class="input-field">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message"></textarea>
+                        </div>
 
-                    <div>
-                        <input type="checkbox" id="workOpportunity" name="work_opportunity" />
-                        <label for="workOpportunity">Is it a work opportunity?</label>
-                    </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="workOpportunity" name="work_opportunity">
+                            <label for="workOpportunity">Is it a work opportunity?</label>
+                        </div>
 
-                    <div>
-                        <button type="submit">Send</button>
-                    </div>
+                        <div class="submit-button">
+                            <button type="submit">Send</button>
+                        </div>
 
-                </fieldset>
-            </form>
+                    </fieldset>
+                </form>
+            </div>
+
 
 
         </div>
+
+        <footer>
+            <a href="https://github.com/jaserfarhod" target="_blank">
+                <img class="box-image-small" src="https://png.pngtree.com/recommend-works/png-clipart/20240516/ourmid/pngtree-cat-with-glasses-meme-sticker-tshirt-illustration-png-image_12476682.png" alt="cool cat picture"/>
+            </a>
+        </footer>
 
     </body>
 
